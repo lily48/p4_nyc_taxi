@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "udacitylyadf"
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_sqldb_password": {
+			"value": ""
+		},
+		"ls_synapse_password": {
+			"value": ""
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://udacitysynsaly.dfs.core.windows.net/"
+		},
+		"ls_sqldb_properties_typeProperties_server": {
+			"value": "udanycly.database.windows.net"
+		},
+		"ls_sqldb_properties_typeProperties_database": {
+			"value": "db_nycpayroll"
+		},
+		"ls_sqldb_properties_typeProperties_userName": {
+			"value": "nycadmin"
+		},
+		"ls_synapse_properties_typeProperties_server": {
+			"value": "udacitysynwply.sql.azuresynapse.net"
+		},
+		"ls_synapse_properties_typeProperties_database": {
+			"value": "udacitysqlly"
+		},
+		"ls_synapse_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		}
+	}
+}
